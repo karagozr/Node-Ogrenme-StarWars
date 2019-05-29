@@ -40,4 +40,5 @@ app.get('/sonuc',(req,res)=>{
     })
 })
 
-app.listen(3000);
+/*uygulamanın çalıştığı server ne portu verirse */
+app.listen(process.env.PORT);
